@@ -12,9 +12,9 @@ The Structure is sample, my superset is builded on a Server and the Server conne
 
 ### 3. Steps of building the Superset on Server(based on CentOS 7.x)
 The following list is what you need before you `pip` Superset:
-* database installation
-* sqlite3 package
-* python3.6<br>
+* `database installation`
+* `sqlite3 package`
+* `python3.6`<br>
 
 Before you start to install superset, you should check your linux systerm, make sure it is allready installed Database clients_installation, because superset needs the database installation to connect the database. 
 In my case I use Oracle Database, so I installed the Oracle database through `rpm` with a `oracle installation.rpm`, `wget`from oracle official website. Then check your systerm to see if you installed `sqlite3 package`(it's a python package),
