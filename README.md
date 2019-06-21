@@ -18,4 +18,4 @@ The following list is what you need before you `pip` Superset:
 
 Before you start to install superset, you should check your linux systerm, make sure it is allready installed Database clients_installation, because superset needs the database installation to connect the database. 
 In my case I use Oracle Database, so I installed the Oracle database through `rpm` with a `oracle installation.rpm`, `wget`from oracle official website. Then check your systerm to see if you installed `sqlite3 package`(it's a python package),
-`superset` will need it for `init` after that you need a `python3.6`（superset official doc claims that they test the py3.6 environment） in your systerm to `pip` the superset.
+`superset` will need it for `init` after that you need a `python3.6`(superset official doc claims that they test the py3.6 environment) in your systerm to `pip` the superset.
