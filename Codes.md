@@ -72,34 +72,25 @@ pip install superset
 
 ### Set up an admin account<br>
 ```
+# Set up an admin account
 fabmanager create-admin --app superset 
-```
 
-### Initialize db<br>
-```
+#Initialize db
 superset db upgrade
-```
 
-### import some examples data sets in cause you need it.<br>
-I do not recommed you to do this process, cause the example data may infect your own data.
-```
---superset load_examples
-```
+#import Example data(do not recommed you to do this process, cause the example data may infect your own data.)
+superset load_examples
 
-
-### initialize user account roles<br>
-```
+#initialize user account roles
 superset init
-```
- 
- 
-### start superset server with a specified port(make sure the port is already open)<br>
-```
+
+#start superset server with a specified port(make sure the port is already open)
 superset runserver -d -p 8081
+
 ```
+
  
- 
-### keep superset running in the background<br>
+### keep superset running in the Linux background<br>
 ```
 nohup superset runserver -p 8081&
 ```
