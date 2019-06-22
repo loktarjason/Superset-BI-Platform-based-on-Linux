@@ -58,6 +58,9 @@ source venv/bin/activate
 ```
 pip install pandas==0.23.4
 pip install SQLAlchemy==1.2.18
+
+#In my case I use Oracle DB so I install oracle DB py driver.
+pip install cx_Oracle
 ```
 
 
