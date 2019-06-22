@@ -73,7 +73,7 @@ pip install superset
 ## Steps need to be finished besfore you start superset<br>
 
 
-### Set up an admin account<br>
+### Set up Superset<br>
 ```
 # Set up an admin account
 fabmanager create-admin --app superset 
