@@ -59,7 +59,7 @@ source venv/bin/activate
 pip install pandas==0.23.4
 pip install SQLAlchemy==1.2.18
 
-#In my case I use Oracle DB so I install oracle DB py driver.
+#In my case I use Oracle DB so I install Oracle DB py driver.
 pip install cx_Oracle
 ```
 
@@ -93,13 +93,13 @@ superset runserver -d -p 8081
 ```
 
  
-### keep superset running in the Linux background<br>
+### Keep superset running in the Linux background<br>
 ```
 nohup superset runserver -p 8081&
 ```
  
  
-### kill superset server<br>
+### Kill superset server<br>
 ```
 ps -ef | grep superset
 kill pid
