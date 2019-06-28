@@ -2,7 +2,7 @@
 
 ### 1. Background info
 
-The aim of me to start the project is that I was handling tons of daily-reports, and those reports even made me could not breathed.
+The aim of me to start the project is that I was handling tons of daily-reports, and those reports even made me could not breathe.
 Now I am sharing you my steps of building `Superset` on a Linux Server. 
 
 
